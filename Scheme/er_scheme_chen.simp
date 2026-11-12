@@ -1,0 +1,1457 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="15.1" multi-file="no" uid="simp0a568913afae4af4b5fec7257dd81bbd" creation-date="09/09/2025 21:16:03">
+  <meta>
+    <name>Lab1</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="erd-chen-entity" type="Entity" />
+        <value>7</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-chen-attribute" type="Attribute" />
+        <value>25</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-chen-relationship" type="Relationship" />
+        <value>11</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="erd-chen-entity" type="Entity" />
+        <value>8</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-chen-attribute" type="Attribute" />
+        <value>26</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-chen-attribute-connector" type="Attribute Connector" />
+        <value>26</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-chen-relationship" type="Relationship" />
+        <value>12</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>62</value>
+      </counter>
+      <counter>
+        <item-type type-id="erd-chen-participation" type="Participation" />
+        <value>24</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>4</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Other.ChenEntityRelationshipDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-9f4ac62368a24573b1ac61f65816605c" name="" task-id-sequence="0">
+    <working-schedule uid="ws-92c2221ffdb74f5e9aad04a911fb6beb" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-4205764136ea40e7aac050675cfd5137" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-fe781569c1cc493da2a281e2587c0c9a" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types />
+    </custom-types>
+  </types>
+  <items>
+    <item id="9682b9b4771e45a49f573e34e657bae0" cid="ATT007" type="erd-chen-attribute" name="Бюджет" creator="" creation-date="09/09/2025 21:26:31">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;20;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;20;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="c311cd17721e48339d15758864d70ced" cid="ATT004" type="erd-chen-attribute" name="Название" creator="" creation-date="09/09/2025 21:25:44">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;20;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;20;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="df06a743d566499ba1bec2dabe3978c6" cid="ATT012" type="erd-chen-attribute" name="Адрес" creator="" creation-date="09/09/2025 21:33:31">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="3798256b8e3a47d7865e5af5c6c1c8f3" cid="ATT013" type="erd-chen-attribute" name="Рейтинг" creator="" creation-date="09/09/2025 21:33:35">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;18;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;18;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;18;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="3c5951fbcff040f8b7faea78220331f5" cid="ATT019" type="erd-chen-attribute" name="Вес" creator="" creation-date="09/09/2025 21:34:04">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;24;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;24;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="a7b8e60f652845edb6cdef89b332bd22" cid="ED001" type="element-detail" name="ElementDetail1" creator="" creation-date="09/09/2025 21:22:13">
+      <element-detail include-tagged-values="true" model-ref="ce85a6631d984d7d838c250c3b75afea" />
+    </item>
+    <item id="54de513f6b154eb8b97d5b1f49b78cb6" cid="ATT006" type="erd-chen-attribute" name="Адрес" creator="" creation-date="09/09/2025 21:26:16">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="a8b196ce3ebf4457a37960dea9bef0c1" cid="CMT002" type="comment" name="Comment" creation-date="09/09/2025 22:27:20">
+      <comment />
+    </item>
+    <item id="523b904c07164ae7a077c7fd9795766b" cid="ATT020" type="erd-chen-attribute" name="Дешевизна" creator="" creation-date="09/09/2025 21:35:09">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;20;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;20;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;20;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;20;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="derived" />
+    </item>
+    <item id="8aa5eff866df4500b17480de6d55a348" cid="ATT018" type="erd-chen-attribute" name="Цена" creator="" creation-date="09/09/2025 21:34:01">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;20;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;20;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;20;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;20;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="55103416b241432598bd7e9f3cd6b0a6" cid="ATT001" type="erd-chen-attribute" name="Кол-во деталей" creator="" creation-date="09/09/2025 21:19:47">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;18;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;18;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;18;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;18;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;18;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;18;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="73ed445fd75e41b98248c43eee063683" cid="ATT016" type="erd-chen-attribute" name="Цвет" creator="" creation-date="09/09/2025 21:33:52">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;20;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;20;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;20;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;20;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="ade5514330b6465aaeca0255c21d894a" cid="ATT017" type="erd-chen-attribute" name="Название" creator="" creation-date="09/09/2025 21:33:56">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;16;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;16;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;16;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;16;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;16;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;16;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="97e6ca6ec02d43ada80dbff43ebd1944" cid="CMT001" type="comment" name="Comment" creator="" creation-date="09/09/2025 21:33:02">
+      <comment />
+    </item>
+    <item id="d14afbb93abb417891a799ca8b2b98cb" cid="ED002" type="element-detail" name="ElementDetail2" creation-date="09/09/2025 22:27:04">
+      <element-detail include-tagged-values="true" />
+    </item>
+    <item id="b772c82774474078a04b42bf4a85a6c9" cid="ATT014" type="erd-chen-attribute" name="Надёжность" creator="" creation-date="09/09/2025 21:33:39">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;18;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;18;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;18;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="derived" />
+    </item>
+    <item id="5884bcf5a17c4db0b023a4a9b47d72a9" cid="ATT011" type="erd-chen-attribute" name="Город" creator="" creation-date="09/09/2025 21:33:26">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="88fc57916c91447ea3f3fd98694191b8" cid="ATC001" type="erd-chen-attribute-connector" creator="" creation-date="09/09/2025 21:19:47" from="88ef7fea165940d8bf7fce6725e42d86" to="55103416b241432598bd7e9f3cd6b0a6" />
+    <item id="6347722b6c224a66a119756125a56427" cid="ATT010" type="erd-chen-attribute" name="Название" creator="" creation-date="09/09/2025 21:33:21">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;22;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;22;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;22;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;11;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;11;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;11;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+    <item id="249807c903c04b7fba6bb9280e6b0752" cid="ATT005" type="erd-chen-attribute" name="Город" creator="" creation-date="09/09/2025 21:25:59">
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+        <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <erd-chen-attribute type="standard" />
+    </item>
+  </items>
+  <models>
+    <model id="p803731ab3459496bbe5b2d9f3bd44b39_746545480" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>09/09/2025 21:16:36</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="chen-entity-relationship" id="ped09c0ff7584413291ae6c6b587e797c_889967958" name="ChenERDiagram1" order-index="1" uid="" name-style="" show-fields="true" auto-routed-paths="false" default-line-style="default" view-location="-712,-230" zoom="0.6">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author />
+          </authors>
+          <description />
+          <creation-date>09/09/2025 21:17:38</creation-date>
+          <change-date>10/01/2025 13:41:10</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="7dac1a79f65348c683aaf2e67bee552a" cid="ELEM038" type="universal-connector" creation-date="09/10/2025 12:56:00" from="6f9dd489bbbb4644aad36ce51050a1b8" to="f6e57e3727cd4b9e8311fddedfec30d0">
+            <connector />
+          </item>
+          <item id="6f9dd489bbbb4644aad36ce51050a1b8" cid="ENT006" type="erd-chen-entity" name="Поставщик" creator="" creation-date="09/09/2025 21:32:44">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Black;22;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;18;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Black;22;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;18;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;18;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Black;22;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;18;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Black;22;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;18;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;18;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-entity type="standard" />
+          </item>
+          <item id="43eb06617ccb4d5898dd68979675e1a7" cid="ELEM025" type="universal-connector" creation-date="09/10/2025 12:48:43" from="73ed445fd75e41b98248c43eee063683" to="3b1714b15f2e4ab3a104b16d1c9d332e">
+            <connector />
+          </item>
+          <item id="565460e4b79a444893d24e45d75e245a" cid="ELEM041" type="universal-connector" creation-date="09/10/2025 12:56:31" from="7dac1a79f65348c683aaf2e67bee552a" to="6347722b6c224a66a119756125a56427">
+            <connector />
+          </item>
+          <item id="93f8eaa64e7c46afb459e8815745b55c" cid="ELEM033" type="universal-connector" creation-date="09/10/2025 12:53:25" from="249807c903c04b7fba6bb9280e6b0752" to="77c5a239e5614ebcb5d419ed97d085ef">
+            <connector />
+          </item>
+          <item id="74dad272b616445dab4c59a376d0242e" cid="ELEM052" type="universal-connector" creation-date="09/21/2025 16:33:39" from="77c5a239e5614ebcb5d419ed97d085ef" to="a56aba5d1c0b4cd8935717fc3da75ab8">
+            <connector />
+          </item>
+          <item id="77c5a239e5614ebcb5d419ed97d085ef" cid="ELEM031" type="universal-connector" creation-date="09/10/2025 12:52:57" from="e4bff27d24e048fca632b435e4e5580a" to="9898243421c0481694f0eff80897f2c7">
+            <connector />
+          </item>
+          <item id="9795aec7645a4b198fceb961d7f22214" cid="ELEM056" type="universal-connector" creation-date="09/24/2025 15:57:47" from="8aa5eff866df4500b17480de6d55a348" to="8dcd132524494bbc8826d9187d93c266">
+            <connector />
+          </item>
+          <item id="88ef7fea165940d8bf7fce6725e42d86" cid="ENT001" type="erd-chen-entity" name="Поставка" creator="" creation-date="09/09/2025 21:19:28">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Black;22;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Black;22;" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Black;22;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Black;22;" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;24;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;24;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-entity type="standard" />
+          </item>
+          <item id="35657450ced74912b4fe9b29c91088ed" cid="ELEM043" type="universal-connector" creation-date="09/10/2025 12:56:51" from="3798256b8e3a47d7865e5af5c6c1c8f3" to="565460e4b79a444893d24e45d75e245a">
+            <connector />
+          </item>
+          <item id="3c4f70c12c364617b11d731f6e800a8c" cid="PAR002" type="erd-chen-participation" creator="" creation-date="09/09/2025 21:22:58" from="88ef7fea165940d8bf7fce6725e42d86" to="ce85a6631d984d7d838c250c3b75afea">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI;28;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+              <text-style type="text" color="#555555" font="Segoe UI;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI;28;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;24;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;24;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-participation type="mandatory" multiplicity="N" />
+          </item>
+          <item id="3a75a313384a48cbb0fc0f3ab5b480a6" cid="ELEM035" type="universal-connector" creation-date="09/10/2025 12:53:51" from="54de513f6b154eb8b97d5b1f49b78cb6" to="7a3add81042b459a817a65033a2db010">
+            <connector />
+          </item>
+          <item id="406eccb18de245d2992ff6296c39362f" cid="PAR008" type="erd-chen-participation" creator="" creation-date="09/09/2025 21:32:56" from="6a9e0e7a945342e2a50fbe8c86b68e29" to="6f9dd489bbbb4644aad36ce51050a1b8">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI;28;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+              <text-style type="text" color="#555555" font="Segoe UI;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI;28;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;24;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;24;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-participation type="total" multiplicity="1" />
+          </item>
+          <item id="0ed4b9bec6a542bd9e16fce59166c86a" cid="PAR003" type="erd-chen-participation" creator="" creation-date="09/09/2025 21:23:54" from="88ef7fea165940d8bf7fce6725e42d86" to="d61c35c02b124b10b41456c90cd8db98">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI;28;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+              <text-style type="text" color="#555555" font="Segoe UI;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI;28;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;24;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;24;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-participation type="mandatory" multiplicity="N" />
+          </item>
+          <item id="54d200bb0df4464c9bc467f82bc79e60" cid="REL011" type="erd-chen-relationship" name="Кампания-исполнитель" creation-date="09/21/2025 16:11:10">
+            <erd-chen-relationship type="standard" />
+          </item>
+          <item id="8e4c5d8d03c648a7807c06b9a5f37cdf" cid="ATT022" type="erd-chen-attribute" name="Сумма поставок" creation-date="09/21/2025 15:58:36">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;20;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;20;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-attribute type="derived" />
+          </item>
+          <item id="d2c05431cbf54634b8d4836ca3f3de04" cid="ENT005" type="erd-chen-entity" name="Деталь" creator="" creation-date="09/09/2025 21:32:22">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Black;22;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;26;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Black;22;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;26;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;26;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Black;22;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;26;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Black;22;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;26;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;26;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-entity type="standard" />
+          </item>
+          <item id="9feac15bad094efeb1b56ef7df3b9c0c" cid="ELEM023" type="universal-connector" creation-date="09/10/2025 12:48:30" from="3b1714b15f2e4ab3a104b16d1c9d332e" to="ade5514330b6465aaeca0255c21d894a">
+            <connector />
+          </item>
+          <item id="de3d03a9fd2941758991b56b4b2b3134" cid="ELEM048" type="universal-connector" creation-date="09/21/2025 15:59:08" from="7a3add81042b459a817a65033a2db010" to="8e4c5d8d03c648a7807c06b9a5f37cdf">
+            <connector />
+          </item>
+          <item id="acc6bba8aa0e4023b986aa7aa504632e" cid="ATT015" type="erd-chen-attribute" name="ID" creator="" creation-date="09/09/2025 21:33:49">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;22;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;22;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;22;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;22;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;22;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;22;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-attribute type="key" />
+          </item>
+          <item id="3b1714b15f2e4ab3a104b16d1c9d332e" cid="ELEM014" type="universal-connector" creation-date="09/10/2025 12:45:43" to="acc6bba8aa0e4023b986aa7aa504632e">
+            <connector />
+          </item>
+          <item id="68aeb20895b146dc9902f0cbed642e8a" cid="ELEM057" type="universal-connector" creation-date="09/24/2025 15:58:19" from="523b904c07164ae7a077c7fd9795766b" to="8aa5eff866df4500b17480de6d55a348">
+            <connector />
+          </item>
+          <item id="551d17e5f2e64b2c83108ca42f8d0895" cid="PAR007" type="erd-chen-participation" creator="" creation-date="09/09/2025 21:32:32" from="d2c05431cbf54634b8d4836ca3f3de04" to="ce85a6631d984d7d838c250c3b75afea">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI;28;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+              <text-style type="text" color="#555555" font="Segoe UI;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI;28;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;24;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;24;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-participation type="total" multiplicity="1" />
+          </item>
+          <item id="daba326b20bc4fddaf1633a226bc1bb9" cid="PAR006" type="erd-chen-participation" creator="" creation-date="09/09/2025 21:25:01" from="d61c35c02b124b10b41456c90cd8db98" to="e4bff27d24e048fca632b435e4e5580a">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI;28;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+              <text-style type="text" color="#555555" font="Segoe UI;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;24;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI;28;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;24;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;24;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;24;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-participation type="total" multiplicity="1" />
+          </item>
+          <item id="b9878af4ccf04840bf8246431d7de29f" cid="ENT007" type="erd-chen-entity" name="Строительная кампания" creation-date="09/21/2025 16:08:38">
+            <erd-chen-entity type="standard" />
+          </item>
+          <item id="f6e57e3727cd4b9e8311fddedfec30d0" cid="ATT009" type="erd-chen-attribute" name="ID" creator="" creation-date="09/09/2025 21:33:18">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;26;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;26;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;26;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;10;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;10;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;10;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-attribute type="key" />
+          </item>
+          <item id="ad6311a9caa243b4ab393979d6036e70" cid="ELEM051" type="universal-connector" creation-date="09/21/2025 16:26:20" from="88fc57916c91447ea3f3fd98694191b8" to="7934467f84844ffc965c8105310e34f1">
+            <connector />
+          </item>
+          <item id="7a3add81042b459a817a65033a2db010" cid="ELEM036" type="universal-connector" creation-date="09/10/2025 12:54:36" from="93f8eaa64e7c46afb459e8815745b55c" to="9682b9b4771e45a49f573e34e657bae0">
+            <connector />
+          </item>
+          <item id="9898243421c0481694f0eff80897f2c7" cid="ATT003" type="erd-chen-attribute" name="ID" creator="" creation-date="09/09/2025 21:25:29">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;26;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;26;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;26;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;12;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;12;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;12;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-attribute type="key" />
+          </item>
+          <item id="48ec4af27e8949d58723ffceaafaf47e" cid="ELEM061" type="universal-connector" creation-date="10/01/2025 13:41:10" from="55103416b241432598bd7e9f3cd6b0a6" to="5decec978fec4a8d81cf437c4f804a06">
+            <connector />
+          </item>
+          <item id="7934467f84844ffc965c8105310e34f1" cid="ATT024" type="erd-chen-attribute" name="Дата" creation-date="09/21/2025 16:25:57">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;26;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;26;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;26;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;26;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;26;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;26;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-attribute type="standard" />
+          </item>
+          <item id="11c6f98de389413181ff0fa4833c17e7" cid="ELEM060" type="universal-connector" creation-date="09/24/2025 16:00:05" from="b772c82774474078a04b42bf4a85a6c9" to="3798256b8e3a47d7865e5af5c6c1c8f3">
+            <connector />
+          </item>
+          <item id="8dcd132524494bbc8826d9187d93c266" cid="ELEM055" type="universal-connector" creation-date="09/24/2025 15:57:12" from="3c5951fbcff040f8b7faea78220331f5" to="3b1714b15f2e4ab3a104b16d1c9d332e">
+            <connector />
+          </item>
+          <item id="a56aba5d1c0b4cd8935717fc3da75ab8" cid="ATT025" type="erd-chen-attribute" name="Сроки" creation-date="09/21/2025 16:33:07">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;20;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;20;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;20;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-attribute type="standard" />
+          </item>
+          <item id="e4bff27d24e048fca632b435e4e5580a" cid="ENT003" type="erd-chen-entity" name="Проект" creator="" creation-date="09/09/2025 21:24:43">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Black;22;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;26;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Black;22;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;26;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;26;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Black;22;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;26;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Black;22;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;26;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;26;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-entity type="standard" />
+          </item>
+          <item id="ce85a6631d984d7d838c250c3b75afea" cid="REL003" type="erd-chen-relationship" name="Детали поставки" creator="" creation-date="09/09/2025 21:21:57">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Verdana;16;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;14;I" />
+              <text-style type="text" color="#555555" font="Verdana;16;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;14;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;14;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Verdana;16;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;14;I" />
+                  <text-style type="text" color="#E9E9E9" font="Verdana;16;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;14;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;14;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-relationship type="standard" />
+          </item>
+          <item id="da13cc9146c04b629168545854bd512b" cid="ELEM044" type="universal-connector" creation-date="09/10/2025 12:56:57" from="df06a743d566499ba1bec2dabe3978c6" to="7dac1a79f65348c683aaf2e67bee552a">
+            <connector />
+          </item>
+          <item id="1802319dc5bc4c2c9f4e931e0457c888" cid="PAR019" type="erd-chen-participation" creation-date="09/10/2025 12:34:57" from="88ef7fea165940d8bf7fce6725e42d86">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI;28;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;22;I" />
+              <text-style type="text" color="#555555" font="Segoe UI;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;24;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;22;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI;28;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;22;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;24;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;22;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-participation type="mandatory" multiplicity="N" />
+          </item>
+          <item id="5decec978fec4a8d81cf437c4f804a06" cid="ATT021" type="erd-chen-attribute" name="Стоимость поставки" creation-date="09/21/2025 15:57:21">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Segoe UI Light;24;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;18;I" />
+              <text-style type="text" color="#555555" font="Segoe UI Light;24;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;18;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;18;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Segoe UI Light;24;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;18;I" />
+                  <text-style type="text" color="#E9E9E9" font="Segoe UI Light;24;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;18;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;18;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-attribute type="derived" />
+          </item>
+          <item id="509357e4e57c43d59f57f1300652e3a7" cid="ELEM045" type="universal-connector" creation-date="09/10/2025 12:57:00" from="5884bcf5a17c4db0b023a4a9b47d72a9" to="7dac1a79f65348c683aaf2e67bee552a">
+            <connector />
+          </item>
+          <item id="d61c35c02b124b10b41456c90cd8db98" cid="REL005" type="erd-chen-relationship" name="Проект поставки" creator="" creation-date="09/09/2025 21:23:36">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Verdana;16;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;14;I" />
+              <text-style type="text" color="#555555" font="Verdana;16;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;14;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;14;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Verdana;16;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;14;I" />
+                  <text-style type="text" color="#E9E9E9" font="Verdana;16;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;14;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;14;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-relationship type="standard" />
+          </item>
+          <item id="8b9fd56a7cf04a5597120185fcfe5aec" cid="ELEM032" type="universal-connector" creation-date="09/10/2025 12:53:15" from="c311cd17721e48339d15758864d70ced" to="de3d03a9fd2941758991b56b4b2b3134">
+            <connector />
+          </item>
+          <item id="6a9e0e7a945342e2a50fbe8c86b68e29" cid="REL001" type="erd-chen-relationship" name="Поставщик поставки" creator="" creation-date="09/09/2025 21:20:18">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+              <text-style type="name" color="#555555" font="Verdana;16;B" />
+              <text-style type="part-header" color="#1E1E1E" font="Verdana;12;I" />
+              <text-style type="text" color="#555555" font="Verdana;16;" horizontal-alignment="left" />
+              <text-style type="tagged-value" color="#555555" font="Segoe UI;12;" />
+              <text-style type="stereotype" color="#555555" font="Segoe UI;12;I" />
+              <background type="solid" colors="#F2F2F2,#F2F2F2" />
+              <border color="#555555" width="2" />
+              <label-connector color="#80000000" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+                  <text-style type="name" color="#E9E9E9" font="Verdana;16;B" />
+                  <text-style type="part-header" color="#1E1E1E" font="Verdana;12;I" />
+                  <text-style type="text" color="#E9E9E9" font="Verdana;16;" horizontal-alignment="left" />
+                  <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;12;" />
+                  <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;12;I" />
+                  <background type="solid" colors="#203D85,#203D85" />
+                  <border color="#203D85" width="2" />
+                  <label-connector color="#80000000" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <erd-chen-relationship type="standard" />
+          </item>
+        </abstract-items>
+        <layer id="7be80064eb29409686c5a8412274923a" name="Default" visible="true" enabled="true" locked="false">
+          <item id="88ef7fea165940d8bf7fce6725e42d86" iid="da9547d5cb2340c1a3d3d06da74ea6bf" creation-date="09/09/2025 21:19:28" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="200" aheight="100" x="564" y="237" width="120" height="70" />
+          </item>
+          <item id="55103416b241432598bd7e9f3cd6b0a6" iid="d6172f24ffba4965a580ab90a835c8d1" creation-date="09/09/2025 21:19:47" order-index="1" type="entity">
+            <layout ax="0" ay="-200" awidth="200" aheight="100" x="-3" y="-155" width="130" height="54" />
+          </item>
+          <item id="88fc57916c91447ea3f3fd98694191b8" iid="7b79ba359b1842ad883517d9dfb0468b" creation-date="09/09/2025 21:19:47" order-index="2" type="relation">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="100" y1="0" x2="100" y2="-100" start-border-pos="0.125" end-border-pos="0.625" name-position="0,20">
+              <points>
+                <point x="100" y="0" />
+                <point x="100" y="-74" />
+                <point x="100" y="-100" />
+              </points>
+            </layout>
+            <relation from="88ef7fea165940d8bf7fce6725e42d86" from-iid="da9547d5cb2340c1a3d3d06da74ea6bf" to="55103416b241432598bd7e9f3cd6b0a6" to-iid="d6172f24ffba4965a580ab90a835c8d1" />
+          </item>
+          <item id="6a9e0e7a945342e2a50fbe8c86b68e29" iid="a220a279316342739a8e0c9e5872a07e" creation-date="09/09/2025 21:20:18" order-index="3" type="entity">
+            <layout ax="300" ay="0" awidth="200" aheight="100" x="441" y="-15.5" width="160" height="103" />
+          </item>
+          <item id="ce85a6631d984d7d838c250c3b75afea" iid="ad77f5492db34f24a057a2902666e30f" creation-date="09/09/2025 21:21:57" order-index="6" type="entity">
+            <layout ax="-300" ay="0" awidth="200" aheight="100" x="-402" y="-15.5" width="150" height="103" />
+          </item>
+          <item id="3c4f70c12c364617b11d731f6e800a8c" iid="fdcb593f993348619b49aa19d3420541" creation-date="09/09/2025 21:22:58" order-index="8" type="relation">
+            <layout multiplicity-position="-1,-26.71875" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="0" y1="50" x2="-100" y2="50" start-border-pos="0.875" end-border-pos="0.375" start-local-pos="35" end-local-pos="51.5" name-position="0,20">
+              <points>
+                <point x="0" y="50" />
+                <point x="-100" y="50" />
+              </points>
+            </layout>
+            <relation from="88ef7fea165940d8bf7fce6725e42d86" from-iid="da9547d5cb2340c1a3d3d06da74ea6bf" to="ce85a6631d984d7d838c250c3b75afea" to-iid="ad77f5492db34f24a057a2902666e30f" />
+          </item>
+          <item id="d61c35c02b124b10b41456c90cd8db98" iid="4ce26385540142eb9159f377d303f8a4" creation-date="09/09/2025 21:23:36" order-index="9" type="entity">
+            <layout ax="0" ay="200" awidth="200" aheight="100" x="-43" y="243" width="130" height="82" />
+          </item>
+          <item id="0ed4b9bec6a542bd9e16fce59166c86a" iid="c9ef72f81a40467a9ddafab460a6ae4a" creation-date="09/09/2025 21:23:54" order-index="11" type="relation">
+            <layout multiplicity-position="25,3" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="100" y1="100" x2="100" y2="200" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="60" end-local-pos="65" name-position="0,20">
+              <points>
+                <point x="100" y="100" />
+                <point x="100" y="200" />
+              </points>
+            </layout>
+            <relation from="88ef7fea165940d8bf7fce6725e42d86" from-iid="da9547d5cb2340c1a3d3d06da74ea6bf" to="d61c35c02b124b10b41456c90cd8db98" to-iid="4ce26385540142eb9159f377d303f8a4" />
+          </item>
+          <item id="e4bff27d24e048fca632b435e4e5580a" iid="299369a812964a87b539df26ee8605ad" creation-date="09/09/2025 21:24:43" order-index="12" type="entity">
+            <layout ax="0" ay="400" awidth="200" aheight="100" x="-3" y="399" width="120" height="70" />
+          </item>
+          <item id="daba326b20bc4fddaf1633a226bc1bb9" iid="ad250fd16be04c01993f0c81d42af317" creation-date="09/09/2025 21:25:01" order-index="14" type="relation">
+            <layout multiplicity-position="25,10" line-style="oblique" lock-end-point="true" lock-to-fields="false" auto-path="" x1="100" y1="300" x2="100" y2="400" start-border-pos="0.625" end-border-pos="0.125" end-local-pos="60" name-position="0,20">
+              <points>
+                <point x="100" y="300" />
+                <point x="100" y="400" />
+              </points>
+            </layout>
+            <relation from="d61c35c02b124b10b41456c90cd8db98" from-iid="4ce26385540142eb9159f377d303f8a4" to="e4bff27d24e048fca632b435e4e5580a" to-iid="299369a812964a87b539df26ee8605ad" />
+          </item>
+          <item id="9898243421c0481694f0eff80897f2c7" iid="bca35f517ab041709a29ee27c907c154" creation-date="09/09/2025 21:25:29" order-index="15" type="entity">
+            <layout ax="-220" ay="600" awidth="200" aheight="100" x="-305" y="434" width="90" height="43" />
+          </item>
+          <item id="c311cd17721e48339d15758864d70ced" iid="ae46ef780f2a4d4b91111255dd45b3cd" creation-date="09/09/2025 21:25:44" order-index="17" type="entity">
+            <layout ax="880" ay="600" awidth="200" aheight="100" x="-193" y="529.5" width="90" height="43" />
+          </item>
+          <item id="249807c903c04b7fba6bb9280e6b0752" iid="aefad7fcb41847a39ba60bae01bd2f33" creation-date="09/09/2025 21:25:59" order-index="19" type="entity">
+            <layout ax="0" ay="600" awidth="200" aheight="100" x="-13" y="578.5" width="90" height="43" />
+          </item>
+          <item id="54de513f6b154eb8b97d5b1f49b78cb6" iid="240c616cf4f349a1a75cb13031b4c17c" creation-date="09/09/2025 21:26:16" order-index="21" type="entity">
+            <layout ax="220" ay="600" awidth="200" aheight="100" x="216" y="578.5" width="83" height="43" />
+          </item>
+          <item id="9682b9b4771e45a49f573e34e657bae0" iid="f8ef352b1b3d4c80a22f6848419bc626" creation-date="09/09/2025 21:26:31" order-index="23" type="entity">
+            <layout ax="440" ay="600" awidth="200" aheight="100" x="430" y="500" width="83" height="43" />
+          </item>
+          <item id="d2c05431cbf54634b8d4836ca3f3de04" iid="784b9ca42b5e4fe6a10cceb24eb50401" creation-date="09/09/2025 21:32:22" order-index="25" type="entity">
+            <layout ax="-600" ay="0" awidth="200" aheight="100" x="-643" y="1" width="120" height="70" />
+          </item>
+          <item id="551d17e5f2e64b2c83108ca42f8d0895" iid="5d0e5f3fb6ff45e29c191bc2e4cd32a1" creation-date="09/09/2025 21:32:32" order-index="27" type="relation">
+            <layout multiplicity-position="0,-26.71875" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-400" y1="50" x2="-300" y2="50" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="35" end-local-pos="51.5" name-position="0,20">
+              <points>
+                <point x="-400" y="50" />
+                <point x="-300" y="50" />
+              </points>
+            </layout>
+            <relation from="d2c05431cbf54634b8d4836ca3f3de04" from-iid="784b9ca42b5e4fe6a10cceb24eb50401" to="ce85a6631d984d7d838c250c3b75afea" to-iid="ad77f5492db34f24a057a2902666e30f" />
+          </item>
+          <item id="6f9dd489bbbb4644aad36ce51050a1b8" iid="5396154d7da146178af8e891194485a1" creation-date="09/09/2025 21:32:44" order-index="28" type="entity">
+            <layout ax="600" ay="0" awidth="200" aheight="100" x="994" y="0" width="120" height="70" />
+          </item>
+          <item id="406eccb18de245d2992ff6296c39362f" iid="a17b78c49ee0413394ec08c1a49ea951" creation-date="09/09/2025 21:32:56" order-index="30" type="relation">
+            <layout multiplicity-position="5,-26.71875" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="500" y1="50" x2="600" y2="50" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="0" end-local-pos="51.5" name-position="0,20">
+              <points>
+                <point x="500" y="50" />
+                <point x="600" y="50" />
+              </points>
+            </layout>
+            <relation from="6a9e0e7a945342e2a50fbe8c86b68e29" from-iid="a220a279316342739a8e0c9e5872a07e" to="6f9dd489bbbb4644aad36ce51050a1b8" to-iid="5396154d7da146178af8e891194485a1" />
+          </item>
+          <item id="f6e57e3727cd4b9e8311fddedfec30d0" iid="a17e2c1d1b534db1bbdc723a7074ee51" creation-date="09/09/2025 21:33:18" order-index="31" type="entity">
+            <layout ax="900" ay="-300" awidth="200" aheight="100" x="754" y="-237" width="73" height="50" />
+          </item>
+          <item id="6347722b6c224a66a119756125a56427" iid="4fcee23dc24240c7900b8429ee024f5e" creation-date="09/09/2025 21:33:21" order-index="33" type="entity">
+            <layout ax="900" ay="300" awidth="200" aheight="100" x="838" y="160" width="200" height="43" />
+          </item>
+          <item id="5884bcf5a17c4db0b023a4a9b47d72a9" iid="a41c3d72c67141259c6dfa59d1437e9f" creation-date="09/09/2025 21:33:26" order-index="35" type="entity">
+            <layout ax="900" ay="-60" awidth="200" aheight="100" x="1060" y="166" width="74" height="47" />
+          </item>
+          <item id="df06a743d566499ba1bec2dabe3978c6" iid="7fad1bcb75f14ef29ed83f213d927477" creation-date="09/09/2025 21:33:31" order-index="37" type="entity">
+            <layout ax="900" ay="-180" awidth="200" aheight="100" x="957" y="170" width="74" height="43" />
+          </item>
+          <item id="3798256b8e3a47d7865e5af5c6c1c8f3" iid="87be8209a3c04501ad8bf8b8a94ebcf0" creation-date="09/09/2025 21:33:35" order-index="39" type="entity">
+            <layout ax="900" ay="60" awidth="200" aheight="100" x="1163" y="144.5" width="74" height="43" />
+          </item>
+          <item id="b772c82774474078a04b42bf4a85a6c9" iid="b7d64e8f121f4f58a2bd93686e509362" creation-date="09/09/2025 21:33:39" order-index="41" type="entity">
+            <layout ax="900" ay="180" awidth="200" aheight="100" x="1342" y="54.5" width="120" height="54.5" />
+          </item>
+          <item id="acc6bba8aa0e4023b986aa7aa504632e" iid="68783e95124e4e4992ca1e92f77872ec" creation-date="09/09/2025 21:33:49" order-index="43" type="entity">
+            <layout ax="-900" ay="-300" awidth="200" aheight="100" x="-904" y="-117" width="74" height="35" />
+          </item>
+          <item id="73ed445fd75e41b98248c43eee063683" iid="30088ebf26e64ab2a5b68b3bd8f00bf1" creation-date="09/09/2025 21:33:52" order-index="45" type="entity">
+            <layout ax="-900" ay="-60" awidth="200" aheight="100" x="-727" y="263" width="74" height="43" />
+          </item>
+          <item id="ade5514330b6465aaeca0255c21d894a" iid="92c4d99675e34a52a5fa95aa7ce90713" creation-date="09/09/2025 21:33:56" order-index="47" type="entity">
+            <layout ax="-900" ay="-180" awidth="200" aheight="100" x="-904" y="173" width="90" height="53" />
+          </item>
+          <item id="8aa5eff866df4500b17480de6d55a348" iid="c2ce6112586f4471a82348278cecb658" creation-date="09/09/2025 21:34:01" order-index="49" type="entity">
+            <layout ax="-900" ay="60" awidth="200" aheight="100" x="-743" y="144" width="90" height="43" />
+          </item>
+          <item id="3c5951fbcff040f8b7faea78220331f5" iid="635d2b7fddff4dbc918fd28b34d96186" creation-date="09/09/2025 21:34:04" order-index="51" type="entity">
+            <layout ax="-900" ay="180" awidth="200" aheight="100" x="-573" y="208" width="90" height="35" />
+          </item>
+          <item id="523b904c07164ae7a077c7fd9795766b" iid="bb3250a8839d4ed0bf672e6b73baaaa5" creation-date="09/09/2025 21:35:09" order-index="53" type="entity">
+            <layout ax="-900" ay="300" awidth="200" aheight="100" x="-433" y="126" width="104" height="43" />
+          </item>
+          <item id="1802319dc5bc4c2c9f4e931e0457c888" iid="b30f44a9fc7f4917979170660e772822" creation-date="09/10/2025 12:34:57" order-index="56" type="relation">
+            <layout multiplicity-position="12,-31.71875" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="200" y1="55" x2="300" y2="54.5" start-border-pos="0.38625000417232513" end-border-pos="0.875" start-local-pos="54.5" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="200" y="55" />
+                <point x="300" y="54.5" />
+              </points>
+            </layout>
+            <relation from="88ef7fea165940d8bf7fce6725e42d86" from-iid="da9547d5cb2340c1a3d3d06da74ea6bf" />
+          </item>
+          <item id="3b1714b15f2e4ab3a104b16d1c9d332e" iid="bff226fac7894c48a7e20dc2caf7d613" creation-date="09/10/2025 12:45:43" order-index="57" type="relation">
+            <layout line-style="perpendicular" lock-start-point="true" lock-to-fields="false" auto-path="" x1="-600" y1="40" x2="-700" y2="-250" start-border-pos="0.875" end-border-pos="0.375" start-local-pos="50" name-position="0,20">
+              <points>
+                <point x="-600" y="40" />
+                <point x="-651" y="-110" />
+                <point x="-700" y="-250" />
+              </points>
+            </layout>
+            <relation to="acc6bba8aa0e4023b986aa7aa504632e" to-iid="68783e95124e4e4992ca1e92f77872ec" />
+          </item>
+          <item id="9feac15bad094efeb1b56ef7df3b9c0c" iid="01e0d98c735b4907976dffa836934d8a" creation-date="09/10/2025 12:48:30" order-index="58" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-651" y1="-130" x2="-700" y2="-130" start-border-pos="0.5666666666666667" end-border-pos="0.375" start-local-pos="59" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="-651" y="-130" />
+                <point x="-700" y="-130" />
+              </points>
+            </layout>
+            <relation from="3b1714b15f2e4ab3a104b16d1c9d332e" from-iid="bff226fac7894c48a7e20dc2caf7d613" to="ade5514330b6465aaeca0255c21d894a" to-iid="92c4d99675e34a52a5fa95aa7ce90713" />
+          </item>
+          <item id="43eb06617ccb4d5898dd68979675e1a7" iid="ecac67ef70714608ba5e343207864faa" creation-date="09/10/2025 12:48:43" order-index="59" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-700" y1="-10" x2="-651" y2="-10" start-border-pos="0.375" end-border-pos="0.258974358974359" start-local-pos="50" end-local-pos="240" name-position="0,20">
+              <points>
+                <point x="-700" y="-10" />
+                <point x="-651" y="-10" />
+              </points>
+            </layout>
+            <relation from="73ed445fd75e41b98248c43eee063683" from-iid="30088ebf26e64ab2a5b68b3bd8f00bf1" to="3b1714b15f2e4ab3a104b16d1c9d332e" to-iid="bff226fac7894c48a7e20dc2caf7d613" />
+          </item>
+          <item id="77c5a239e5614ebcb5d419ed97d085ef" iid="57b1fb2dfcc44a05950d1b19f785bd83" creation-date="09/10/2025 12:52:57" order-index="63" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="100" y1="500" x2="-120" y2="600" start-border-pos="0.625" end-border-pos="0.125" start-local-pos="100" end-local-pos="100" name-position="0,20">
+              <points>
+                <point x="100" y="500" />
+                <point x="100" y="543" />
+                <point x="-120" y="543" />
+                <point x="-120" y="600" />
+              </points>
+            </layout>
+            <relation from="e4bff27d24e048fca632b435e4e5580a" from-iid="299369a812964a87b539df26ee8605ad" to="9898243421c0481694f0eff80897f2c7" to-iid="bca35f517ab041709a29ee27c907c154" />
+          </item>
+          <item id="8b9fd56a7cf04a5597120185fcfe5aec" iid="db4efcbecc344fc998457af755cf6c08" creation-date="09/10/2025 12:53:15" order-index="64" type="relation">
+            <layout line-style="oblique" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="980" y1="600" x2="757" y2="543" start-border-pos="0.125" end-border-pos="0.8720682302771855" start-local-pos="100" end-local-pos="10" name-position="0,20">
+              <points>
+                <point x="980" y="600" />
+                <point x="980" y="543" />
+                <point x="757" y="543" />
+              </points>
+            </layout>
+            <relation from="c311cd17721e48339d15758864d70ced" from-iid="ae46ef780f2a4d4b91111255dd45b3cd" to="de3d03a9fd2941758991b56b4b2b3134" to-iid="09993728a584475c9d1195e5ad3fd415" />
+          </item>
+          <item id="93f8eaa64e7c46afb459e8815745b55c" iid="6c76b8ddcf3b4ac7a477ccf3f537b8d2" creation-date="09/10/2025 12:53:25" order-index="65" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="100" y1="600" x2="100" y2="524" start-border-pos="0.125" end-border-pos="0.07448647712353305" start-local-pos="100" end-local-pos="448" name-position="0,20">
+              <points>
+                <point x="100" y="600" />
+                <point x="100" y="524" />
+              </points>
+            </layout>
+            <relation from="249807c903c04b7fba6bb9280e6b0752" from-iid="aefad7fcb41847a39ba60bae01bd2f33" to="77c5a239e5614ebcb5d419ed97d085ef" to-iid="57b1fb2dfcc44a05950d1b19f785bd83" />
+          </item>
+          <item id="3a75a313384a48cbb0fc0f3ab5b480a6" iid="5d5a12a60d274f369b2e7007f39907dc" creation-date="09/10/2025 12:53:51" order-index="67" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="320" y1="600" x2="320" y2="543" start-border-pos="0.125" end-border-pos="0.4426559356136821" start-local-pos="100" end-local-pos="10" name-position="0,20">
+              <points>
+                <point x="320" y="600" />
+                <point x="320" y="543" />
+              </points>
+            </layout>
+            <relation from="54de513f6b154eb8b97d5b1f49b78cb6" from-iid="240c616cf4f349a1a75cb13031b4c17c" to="7a3add81042b459a817a65033a2db010" to-iid="85952abe507840f4a6210e369fd35a6b" />
+          </item>
+          <item id="7a3add81042b459a817a65033a2db010" iid="85952abe507840f4a6210e369fd35a6b" creation-date="09/10/2025 12:54:36" order-index="68" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="100" y1="543" x2="540" y2="600" start-border-pos="0.75" end-border-pos="0.125" start-local-pos="29" end-local-pos="100" name-position="0,20">
+              <points>
+                <point x="100" y="543" />
+                <point x="540" y="543" />
+                <point x="540" y="600" />
+              </points>
+            </layout>
+            <relation from="93f8eaa64e7c46afb459e8815745b55c" from-iid="6c76b8ddcf3b4ac7a477ccf3f537b8d2" to="9682b9b4771e45a49f573e34e657bae0" to-iid="f8ef352b1b3d4c80a22f6848419bc626" />
+          </item>
+          <item id="7dac1a79f65348c683aaf2e67bee552a" iid="e0ae6306807943d4b9307b8b8a2ce858" creation-date="09/10/2025 12:56:00" order-index="69" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="800" y1="50" x2="900" y2="-250" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="50" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="800" y="50" />
+                <point x="840" y="50" />
+                <point x="840" y="-250" />
+                <point x="900" y="-250" />
+              </points>
+            </layout>
+            <relation from="6f9dd489bbbb4644aad36ce51050a1b8" from-iid="5396154d7da146178af8e891194485a1" to="f6e57e3727cd4b9e8311fddedfec30d0" to-iid="a17e2c1d1b534db1bbdc723a7074ee51" />
+          </item>
+          <item id="565460e4b79a444893d24e45d75e245a" iid="af311dbd3069490590478032185bf823" creation-date="09/10/2025 12:56:31" order-index="70" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="840" y1="50" x2="900" y2="350" start-border-pos="0.1" end-border-pos="0.875" start-local-pos="50" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="840" y="50" />
+                <point x="838" y="350" />
+                <point x="900" y="350" />
+              </points>
+            </layout>
+            <relation from="7dac1a79f65348c683aaf2e67bee552a" from-iid="e0ae6306807943d4b9307b8b8a2ce858" to="6347722b6c224a66a119756125a56427" to-iid="4fcee23dc24240c7900b8429ee024f5e" />
+          </item>
+          <item id="35657450ced74912b4fe9b29c91088ed" iid="980f20955b2545ab903589d5ad844872" creation-date="09/10/2025 12:56:51" order-index="72" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="900" y1="110" x2="840" y2="110" start-border-pos="0.875" end-border-pos="0.16574601417267656" start-local-pos="50" end-local-pos="38" name-position="0,20">
+              <points>
+                <point x="900" y="110" />
+                <point x="840" y="110" />
+              </points>
+            </layout>
+            <relation from="3798256b8e3a47d7865e5af5c6c1c8f3" from-iid="87be8209a3c04501ad8bf8b8a94ebcf0" to="565460e4b79a444893d24e45d75e245a" to-iid="af311dbd3069490590478032185bf823" />
+          </item>
+          <item id="da13cc9146c04b629168545854bd512b" iid="f0affaaac0ed4256ace20b1073227e81" creation-date="09/10/2025 12:56:57" order-index="73" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="900" y1="-130" x2="840" y2="-130" start-border-pos="0.875" end-border-pos="0.55" start-local-pos="50" end-local-pos="49" name-position="0,20">
+              <points>
+                <point x="900" y="-130" />
+                <point x="840" y="-130" />
+              </points>
+            </layout>
+            <relation from="df06a743d566499ba1bec2dabe3978c6" from-iid="7fad1bcb75f14ef29ed83f213d927477" to="7dac1a79f65348c683aaf2e67bee552a" to-iid="e0ae6306807943d4b9307b8b8a2ce858" />
+          </item>
+          <item id="509357e4e57c43d59f57f1300652e3a7" iid="296362e44d294838bca4f7e513af3063" creation-date="09/10/2025 12:57:00" order-index="74" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="900" y1="-10" x2="840" y2="-10" start-border-pos="0.875" end-border-pos="0.25" start-local-pos="50" end-local-pos="250" name-position="0,20">
+              <points>
+                <point x="900" y="-10" />
+                <point x="840" y="-10" />
+              </points>
+            </layout>
+            <relation from="5884bcf5a17c4db0b023a4a9b47d72a9" from-iid="a41c3d72c67141259c6dfa59d1437e9f" to="7dac1a79f65348c683aaf2e67bee552a" to-iid="e0ae6306807943d4b9307b8b8a2ce858" />
+          </item>
+          <item id="5decec978fec4a8d81cf437c4f804a06" iid="ae11c1834d354d93b0a815b67de032ce" creation-date="09/21/2025 15:57:21" order-index="75" type="entity">
+            <layout ax="300" ay="-200" awidth="200" aheight="100" x="300" y="-200" width="120" height="70" />
+          </item>
+          <item id="8e4c5d8d03c648a7807c06b9a5f37cdf" iid="8a3f5647c36c49698f0df6136b294901" creation-date="09/21/2025 15:58:36" order-index="77" type="entity">
+            <layout ax="660" ay="600" awidth="200" aheight="100" x="720" y="613" width="120" height="70" />
+          </item>
+          <item id="de3d03a9fd2941758991b56b4b2b3134" iid="09993728a584475c9d1195e5ad3fd415" creation-date="09/21/2025 15:59:08" order-index="78" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="348" y1="543" x2="760" y2="600" start-border-pos="0.5" end-border-pos="0.125" start-local-pos="10" end-local-pos="100" name-position="0,20">
+              <points>
+                <point x="348" y="543" />
+                <point x="760" y="543" />
+                <point x="760" y="600" />
+              </points>
+            </layout>
+            <relation from="7a3add81042b459a817a65033a2db010" from-iid="85952abe507840f4a6210e369fd35a6b" to="8e4c5d8d03c648a7807c06b9a5f37cdf" to-iid="8a3f5647c36c49698f0df6136b294901" />
+          </item>
+          <item id="7934467f84844ffc965c8105310e34f1" iid="aba973fbcacf42fb8372aa47d845dcc0" creation-date="09/21/2025 16:25:57" order-index="81" type="entity">
+            <layout ax="-220" ay="-200" awidth="200" aheight="100" x="-220" y="-200" width="120" height="70" />
+          </item>
+          <item id="ad6311a9caa243b4ab393979d6036e70" iid="c0d535df02db47f0b4a109137eddc32c" creation-date="09/21/2025 16:26:20" order-index="82" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="100" y1="-48" x2="-120" y2="-100" start-border-pos="0.48" end-border-pos="0.625" start-local-pos="62" end-local-pos="100" name-position="0,20">
+              <points>
+                <point x="100" y="-48" />
+                <point x="-120" y="-48" />
+                <point x="-120" y="-100" />
+              </points>
+            </layout>
+            <relation from="88fc57916c91447ea3f3fd98694191b8" from-iid="7b79ba359b1842ad883517d9dfb0468b" to="7934467f84844ffc965c8105310e34f1" to-iid="aba973fbcacf42fb8372aa47d845dcc0" />
+          </item>
+          <item id="a56aba5d1c0b4cd8935717fc3da75ab8" iid="f682a50e446e4517bf80ca3b57bd43b8" creation-date="09/21/2025 16:33:07" order-index="83" type="entity">
+            <layout ax="-440" ay="600" awidth="200" aheight="100" x="-662" y="599" width="120" height="70" />
+          </item>
+          <item id="74dad272b616445dab4c59a376d0242e" iid="0c186556542e424a9e57e6865554a988" creation-date="09/21/2025 16:33:39" order-index="84" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-55" y1="543" x2="-340" y2="600" start-border-pos="0.13125" end-border-pos="0.125" start-local-pos="230" end-local-pos="100" name-position="0,20">
+              <points>
+                <point x="-55" y="543" />
+                <point x="-340" y="543" />
+                <point x="-340" y="600" />
+              </points>
+            </layout>
+            <relation from="77c5a239e5614ebcb5d419ed97d085ef" from-iid="57b1fb2dfcc44a05950d1b19f785bd83" to="a56aba5d1c0b4cd8935717fc3da75ab8" to-iid="f682a50e446e4517bf80ca3b57bd43b8" />
+          </item>
+          <item id="8dcd132524494bbc8826d9187d93c266" iid="c12c9383bbce47e0b197966802ab1b52" creation-date="09/24/2025 15:57:12" order-index="85" type="relation">
+            <layout line-style="oblique" end-auto-side="false" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-700" y1="230" x2="-651" y2="40" start-border-pos="0.375" end-border-pos="0.13076923076923078" start-local-pos="50" end-local-pos="59" name-position="0,20">
+              <points>
+                <point x="-700" y="230" />
+                <point x="-652" y="230" />
+                <point x="-651" y="40" />
+              </points>
+            </layout>
+            <relation from="3c5951fbcff040f8b7faea78220331f5" from-iid="635d2b7fddff4dbc918fd28b34d96186" to="3b1714b15f2e4ab3a104b16d1c9d332e" to-iid="bff226fac7894c48a7e20dc2caf7d613" />
+          </item>
+          <item id="9795aec7645a4b198fceb961d7f22214" iid="0ffc98f788174f41a9435ec96554f2e7" creation-date="09/24/2025 15:57:47" order-index="86" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-700" y1="110" x2="-651" y2="110" start-border-pos="0.375" end-border-pos="0.7058815316633037" start-local-pos="50" end-local-pos="59" name-position="0,20">
+              <points>
+                <point x="-700" y="110" />
+                <point x="-651" y="110" />
+              </points>
+            </layout>
+            <relation from="8aa5eff866df4500b17480de6d55a348" from-iid="c2ce6112586f4471a82348278cecb658" to="8dcd132524494bbc8826d9187d93c266" to-iid="c12c9383bbce47e0b197966802ab1b52" />
+          </item>
+          <item id="68aeb20895b146dc9902f0cbed642e8a" iid="5d00585fde8347c68a0c274769492e67" creation-date="09/24/2025 15:58:19" order-index="87" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-900" y1="350" x2="-900" y2="110" start-border-pos="0.875" end-border-pos="0.875" start-local-pos="50" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="-900" y="350" />
+                <point x="-928" y="350" />
+                <point x="-928" y="110" />
+                <point x="-900" y="110" />
+              </points>
+            </layout>
+            <relation from="523b904c07164ae7a077c7fd9795766b" from-iid="bb3250a8839d4ed0bf672e6b73baaaa5" to="8aa5eff866df4500b17480de6d55a348" to-iid="c2ce6112586f4471a82348278cecb658" />
+          </item>
+          <item id="11c6f98de389413181ff0fa4833c17e7" iid="a28a3d134bcb4311bbe5fa689a7413b2" creation-date="09/24/2025 16:00:05" order-index="89" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1100" y1="230" x2="1100" y2="110" start-border-pos="0.375" end-border-pos="0.375" start-local-pos="50" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="1100" y="230" />
+                <point x="1119" y="230" />
+                <point x="1118" y="110" />
+                <point x="1100" y="110" />
+              </points>
+            </layout>
+            <relation from="b772c82774474078a04b42bf4a85a6c9" from-iid="b7d64e8f121f4f58a2bd93686e509362" to="3798256b8e3a47d7865e5af5c6c1c8f3" to-iid="87be8209a3c04501ad8bf8b8a94ebcf0" />
+          </item>
+          <item id="48ec4af27e8949d58723ffceaafaf47e" iid="c78945f6251a487e8d55dc61b98726b5" creation-date="10/01/2025 13:41:10" order-index="90" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="200" y1="-150" x2="300" y2="-150" start-border-pos="0.375" end-border-pos="0.875" start-local-pos="50" end-local-pos="50" name-position="0,20">
+              <points>
+                <point x="200" y="-150" />
+                <point x="300" y="-150" />
+              </points>
+            </layout>
+            <relation from="55103416b241432598bd7e9f3cd6b0a6" from-iid="d6172f24ffba4965a580ab90a835c8d1" to="5decec978fec4a8d81cf437c4f804a06" to-iid="ae11c1834d354d93b0a815b67de032ce" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
